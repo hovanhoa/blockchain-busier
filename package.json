@@ -2,7 +2,7 @@
   "name": "hardhat-project",
   "scripts": {
     "compile": "npx hardhat compile",
-    "run": "npx hardhat run --network Sample scripts/deploy.js",
+    "script": "npx hardhat run --network Sample scripts/deploy.js",
     "clean": "rm -rf ./artifacts ./cache ./typechain"
   },
   "devDependencies": {
