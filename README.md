@@ -15,7 +15,6 @@ First, config the `.env` file (ex `.env.example`)
 RPC_ENDPOINT=""
 PRIVATE_KEY=""
 OTHER_ADDRESS=""
-
 ```
 
 Before running any command, make sure to install dependencies:
