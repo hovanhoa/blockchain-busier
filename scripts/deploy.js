@@ -13,7 +13,7 @@ async function main() {
     while (true) {
       const Increment = await ethers.getContractFactory("Increment");
       const IncrementContract = await Increment.deploy();
-      console.log("Deploy Increment Address        : ", await IncrementContract.getAddress());
+      console.log("Deploy Increment");
       await new Promise(r => setTimeout(r, 20000));
 
       var count = 0
