@@ -16,11 +16,6 @@ async function main() {
     console.log("Deploy Increment");
     await new Promise((r) => setTimeout(r, 20000));
 
-    await IncrementContract.increment();
-    console.log("Contract call!");
-    count++;
-    await new Promise((r) => setTimeout(r, 20000));
-
     await ERC20Contract.transfer(process.env.OTHER_ADDRESS, 10 ** 9);
     console.log("Token Transfer!");
     await new Promise((r) => setTimeout(r, 20000));
