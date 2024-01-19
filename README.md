@@ -35,6 +35,12 @@ npm run script
 nohup npm run script &
 ```
 
+### Kill the process by nohup
+```sh
+ps -ef | grep script
+kill <pid>
+```
+
 ## License
 
 Distributed under the MIT License.
