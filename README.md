@@ -35,6 +35,13 @@ npm run script
 nohup npm run script &
 ```
 
+or 
+
+```sh
+docker build --tag blockchain-busier .
+docker run -d blockchain-busier
+```
+
 ### Kill the process by nohup
 ```sh
 ps -ef | grep script
